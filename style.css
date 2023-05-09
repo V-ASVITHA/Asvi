@@ -1,0 +1,439 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Helkivad_%C3%B6%C3%B6pilved_Kuresoo_kohal.jpg/1200px-Helkivad_%C3%B6%C3%B6pilved_Kuresoo_kohal.jpg);
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: orange;
+    font-size: 35px;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: orange;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid orange;
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: orange;
+    border: 2px solid orange;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 40px;
+    padding-bottom: 25px;
+    letter-spacing: 1.2px;
+    line-height: 30px; 
+}
+
+.content h1{
+    font-size: 50px;
+    padding-left: 40px;
+    margin-top: 5%;
+    letter-spacing: 2px;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: orange;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: white;
+}
+
+.content span{
+    color: orange;
+    font-size: 60px;
+}
+
+.image{
+    width: 25px;
+    height: 38px;
+    position: absolute;
+    top: -40px;
+    left: 750px;
+    padding: 25px;
+}
+
+.page2{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: black;
+    position: relative;
+    
+}
+
+.page2 .par{
+    padding-left: 50px;
+    padding-bottom: 25px;
+    letter-spacing: 1.2px;
+    line-height: 30px; 
+}
+
+.page2 h1{
+    font-size: 50px;
+    padding-left: 50px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.image1{
+    position: absolute;
+    left: 800px;
+    top: 10px;
+}
+
+.image2{
+    position: absolute;
+    left: 50px;
+    top: 230px;
+}
+
+.main1{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(https://images.unsplash.com/photo-1528818955841-a7f1425131b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c3RhcnJ5JTIwc2t5fGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;  
+}
+
+.page3{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+    
+}
+
+.page3 h1{
+    font-size: 50px;
+    padding-left: 50px;
+    padding-top: 40px;
+    margin-top: 6%;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.form{
+    width: 250px;
+    height: 350px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    position: absolute;
+    top: 130px;
+    left: 120px;
+    border-radius: 10px;
+}
+
+.form h2{
+    width: 220px;
+    text-align: center;
+    color: orange;
+    font-size: 22px;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.liw{
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.form1{
+    width: 250px;
+    height: 450px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    position: absolute;
+    top: 130px;
+    left: 500px;
+    border-radius: 10px;
+}
+
+.form1 h2{
+    width: 220px;
+    text-align: center;
+    color: orange;
+    font-size: 22px;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.liw{
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.form2{
+    width: 250px;
+    height: 350px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    position: absolute;
+    top: 130px;
+    left: 850px;
+    border-radius: 10px;
+}
+
+.form2 h2{
+    width: 220px;
+    text-align: center;
+    color: orange;
+    font-size: 22px;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.liw{
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.page4{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: black;
+    position: relative;
+    
+}
+
+.page4 .aca{
+    padding-left: 50px;
+    padding-bottom: 25px;
+    letter-spacing: 1.2px;
+    line-height: 30px; 
+}
+
+.page4 h1{
+    font-size: 50px;
+    padding-left: 50px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.main2{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(https://media.istockphoto.com/id/1311934969/photo/contact-us.jpg?b=1&s=170667a&w=0&k=20&c=2sJEN1Hhg6heUi1ZxKs6pJDwcyLYXPc4pUGd3hEjOjE=);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;  
+}
+
+.page5{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+    
+}
+
+.page5 h1{
+    font-size: 50px;
+    padding-left: 50px;
+    padding-top: 40px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.info{
+    width: 250px;
+    height: 350px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    position: absolute;
+    top: 130px;
+    left: 120px;
+    border-radius: 10px;
+}
+
+.info h2{
+    width: 220px;
+    text-align: center;
+    color: orange;
+    font-size: 22px;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.info input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid orange;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: orange;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: orange;
+}
+
+.btnn:hover{
+    background: white;
+    color: orange;
+}
+
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.con{
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+    color: orange;
+}
+
+.con a{
+    text-decoration: none;
+    color: white;
+}
+
+.con a:hover{
+    color: orange;
+}
+
+.icons a{
+    color: white;
+}
+
+.icons ion-icon{
+    color: white;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+
+.icons ion-icon:hover{
+    color: orange;
+}
+
+.up{
+    padding-left: 20px;
+}
